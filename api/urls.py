@@ -1,3 +1,5 @@
+#here are the api endpoints
+
 from django.urls import path
 from .views import PublicHelloView, ProtectedDataView, RegisterView
 

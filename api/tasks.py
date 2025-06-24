@@ -1,3 +1,5 @@
+#Sending mail to the users who just regestered useing celery
+
 from celery import shared_task
 from django.core.mail import send_mail
 

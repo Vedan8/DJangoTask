@@ -1,3 +1,5 @@
+# Created Model for Telegram Users
+
 from django.db import models
 
 class TelegramUser(models.Model):
