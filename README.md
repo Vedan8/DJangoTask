@@ -34,62 +34,62 @@ A Django REST Framework project that includes:
 
 ✅ 1️⃣ Clone the repository
 
-git clone https://github.com/Vedan8/DJangoTask.git
-cd DjangoTask
+- git clone https://github.com/Vedan8/DJangoTask.git
+- cd DjangoTask
 
 
 ✅ 2️⃣ Create Virtual Environment
 
-python -m venv env
-source env/bin/activate  # Linux/Mac
-env\Scripts\activate      # Windows
+- python -m venv env
+- source env/bin/activate  # Linux/Mac
+- env\Scripts\activate      # Windows
 
 ✅ 3️⃣ Install Requirements
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ✅ 4️⃣ Create .env
-Add .env in the root directory:
+- Add .env in the root directory:
 
-SECRET_KEY=your-django-secret
-DEBUG=False
-DB_NAME=djangotask_db
-DB_USER=youruser
-DB_PASSWORD=yourpass
-DB_HOST=localhost
-DB_PORT=5432
-CELERY_BROKER_URL=redis://127.0.0.1:6379/0
-CELERY_RESULT_BACKEND=redis://127.0.0.1:6379/0
-TELEGRAM_TOKEN=your_telegram_bot_token_here
-EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USE_TLS=True
-EMAIL_HOST_USER=your_email@gmail.com
-EMAIL_HOST_PASSWORD=your_app_password
-DEFAULT_FROM_EMAIL=your_email@gmail.com
+- SECRET_KEY=your-django-secret
+- DEBUG=False
+- DB_NAME=djangotask_db
+- DB_USER=youruser
+- DB_PASSWORD=yourpass
+- DB_HOST=localhost
+- DB_PORT=5432
+- CELERY_BROKER_URL=redis://127.0.0.1:6379/0
+- CELERY_RESULT_BACKEND=redis://127.0.0.1:6379/0
+- TELEGRAM_TOKEN=your_telegram_bot_token_here
+- EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+- EMAIL_HOST=smtp.gmail.com
+- EMAIL_PORT=587
+- EMAIL_USE_TLS=True
+- EMAIL_HOST_USER=your_email@gmail.com
+- EMAIL_HOST_PASSWORD=your_app_password
+- DEFAULT_FROM_EMAIL=your_email@gmail.com
 
 🗄️ 5️⃣ Database Setup
 
-Edit settings.py for your database and run:
+- Edit settings.py for your database and run:
 
-python manage.py migrate
+- python manage.py migrate
 
 👤 6️⃣ Create Superuser
 
-python manage.py createsuperuser
+- python manage.py createsuperuser
 
 🚀 7️⃣ Run Django Development Server
 
-python manage.py runserver
+- python manage.py runserver
 
 ⚡️ 8️⃣ Run Celery Worker
 
-celery -A DjangoTask worker -l INFO
+- celery -A DjangoTask worker -l INFO
 
 🤖 9️⃣ Run the Telegram Bot
 
-python api/bot.py
+- python api/bot.py
 
 
 
@@ -106,21 +106,21 @@ python api/bot.py
 
 
 🤖 Telegram Bot
-Command: /start
+- Command: /start
 
-Action: Collects the user’s Telegram username and saves it to the database.
+- Action: Collects the user’s Telegram username and saves it to the database.
 
 
 📂 Directory Structure
 
-DjangoTask/
-├─ DjangoTask/
-├─ api/
-├─ .env
-├─ manage.py
-├─ requirements.txt
-├─ README.md
+- DjangoTask/
+- ├─ DjangoTask/
+- ├─ api/
+- ├─ .env
+- ├─ manage.py
+- ├─ requirements.txt
+- ├─ README.md
 
 
 👥 Contact
-For any questions, contact: vedanjyadav@gmail.com
+- For any questions, contact: vedanjyadav@gmail.com
