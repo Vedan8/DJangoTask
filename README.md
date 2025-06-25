@@ -96,11 +96,11 @@ A Django REST Framework project that includes:
 
 | Endpoint               | Method | Auth         | Purpose                              |
 | ---------------------- | ------ | ------------ | ------------------------------------ |
-| `/api/public/hello/`   | GET    | No           | Public "hello" message               |
+| `/api/public/`         | GET    | No           | Public "hello" message               |
 | `/api/register/`       | POST   | No           | Register a new user (triggers email) |
 | `/auth/login/`         | POST   | No           | Get JWT token                        |
 | `/auth/refresh/`       | POST   | No           | Refresh JWT token                    |
-| `/api/protected/data/` | GET    | JWT required | Returns protected data               |
+| `/api/protected/`      | GET    | JWT required | Returns protected data               |
 
 
 
