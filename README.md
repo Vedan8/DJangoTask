@@ -34,7 +34,7 @@ A Django REST Framework project that includes:
 
 ✅ 1️⃣ Clone the repository
 
-- git clone https://github.com/Vedan8/DJangoTask.git
+- git clone https://github.com/Vedan8/TelegramBot.git
 - cd DjangoTask
 
 
